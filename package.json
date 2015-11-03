@@ -1,7 +1,7 @@
 {
   "name": "apache-to-nginx",
   "version": "0.0.3",
-  "description": "A simple module for Apache configuration file convert to Ngix conf.",
+  "description": "A simple script for Apache configuration file convert to Ngix conf.",
   "main": "./main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
