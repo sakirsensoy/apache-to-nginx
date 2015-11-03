@@ -1,6 +1,6 @@
 {
   "name": "apache-to-nginx",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple module for Apache configuration file convert to Ngix conf.",
   "main": "./main.js",
   "scripts": {
@@ -20,7 +20,10 @@
     "url": "https://github.com/sakirsensoy/apache-to-nginx.git"
   },
   "keywords": [
-    "apache", "nginx", "apache-to-nginx", "apache-2-nginx"
+    "apache",
+    "nginx",
+    "apache-to-nginx",
+    "apache-2-nginx"
   ],
   "author": "Şakir Şensoy",
   "license": "MIT",
@@ -28,8 +31,8 @@
     "url": "https://github.com/sakirsensoy/apache-to-nginx/issues"
   },
   "dependencies": {
-    "apacheconf":"0.0.5",
-    "graceful-fs":"4.1.2",
-    "string-template":"0.2.1"
+    "apacheconf": "0.0.5",
+    "graceful-fs": "4.1.2",
+    "string-template": "0.2.1"
   }
 }
