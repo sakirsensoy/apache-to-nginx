@@ -1,6 +1,6 @@
 {
   "name": "apache-to-nginx",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A simple script for Apache configuration file convert to Ngix conf.",
   "main": "./main.js",
   "scripts": {
