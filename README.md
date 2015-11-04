@@ -17,7 +17,7 @@ $ apache-to-nginx <apache_virtual_host.conf> <nginx_conf_files_location> <templa
 
 ***Examples***
 ```sh
-# generate configuration file with default template(php)
+# generate configuration file with default template (PHP-FPM)
 $ apache-to-nginx /etc/apache2/sites-available/example.com.conf /etc/nginx/site-available
 
 # generate configuration file with custom template
@@ -29,7 +29,7 @@ $ apache-to-nginx /etc/apache2/sites-available/example.com.conf /etc/nginx/site-
 Default configuration template:
 ```
 server {
-    listen 80;
+    listen {listen};
     server_name {serverName};
     root {directory};
 

@@ -34,8 +34,12 @@ apacheconf(apacheConfFile, function (err, config, parser) {
 			serverName = serverName.concat(hostConf.ServerAlias);
 		}
 
+		// ip-port
+		var listen = hostConf.$args || '80';
+
 		// format template
 		var formattedTpl = format(configTpl, {
+			listen     : listen,
 			serverName : serverName[0],
 			directory  : hostConf.DocumentRoot[0]
 		});

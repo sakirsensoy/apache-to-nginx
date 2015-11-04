@@ -1,5 +1,5 @@
 server {
-    listen 80;
+    listen {listen};
     server_name {serverName};
     root {directory};
 
